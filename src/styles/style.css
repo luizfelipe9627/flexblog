@@ -10,6 +10,7 @@
 @import url('./partials/superinfo.css');
 
 /* Section */
+@import url('./partials/introducao.css');
 @import url('./partials/sobre.css');
 @import url('./partials/produto.css');
 @import url('./partials/qualidades.css');
