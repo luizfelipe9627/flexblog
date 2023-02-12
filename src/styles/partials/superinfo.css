@@ -1,0 +1,20 @@
+.superinfo-bg {
+  background-color: var(--cor-azul);
+  color: var(--cor-branca);
+}
+
+.superinfo {
+  display: flex;
+  justify-content: space-between;
+  /* Tamanho máximo do container dos itens. */
+  max-width: 960px;
+  /* Centraliza os itens. */
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.superinfo a, .superinfo p {
+  color: var(--cor-branca);
+  margin: 0 10px 10px 10px;
+}
