@@ -1,6 +1,6 @@
 .superinfo-bg {
-  background-color: var(--cor-azul);
-  color: var(--cor-branca);
+  background-color: var(--cor-azul-1);
+  color: var(--cor-branco-1);
 }
 
 .superinfo {
@@ -14,7 +14,8 @@
   padding-top: 10px;
 }
 
-.superinfo a, .superinfo p {
-  color: var(--cor-branca);
+.superinfo a,
+.superinfo p {
+  color: var(--cor-branco-1);
   margin: 0 10px 10px 10px;
 }
