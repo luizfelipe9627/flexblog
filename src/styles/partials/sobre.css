@@ -1,0 +1,35 @@
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid var(--cor-azul-2);
+  border-bottom: 2px solid var(--cor-azul-2);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.sobre-info {
+  /* flex-grow -> Pega o tamanho total do container do sobre-img. / flex-shrink -> Valor padrão. / flex-basis -> Quando o texto 300px ele irá quebrar as imagens. */
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: var(--cor-cinza-1);
+}
+
+.sobre-img {
+  /* flex-grow -> Cada imagem pega metade do espaço definido no sobre-info. / flex-shrink -> Valor padrão. / flex-basis -> Quando alguma imagem atingir 160px ele irá quebrar a img para baixo. */
+  flex: 1 1 160px;
+  margin: 0 10px 10px 10px;
+}
+
+
