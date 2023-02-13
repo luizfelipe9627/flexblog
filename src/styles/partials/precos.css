@@ -1,0 +1,95 @@
+.precos {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--cor-branco-2);
+  padding: 60px;
+  align-items: flex-end;
+}
+
+.preco-item {
+  /*
+    flex-grow -> O valor 1 faz expandir ao máximo cada imagem. 
+    flex-shrink -> O valor 1 é permite que os itens tenham os seus tamanhos reduzidos para caber no container.
+    flex-basis -> Quando algum elemento atingir 260px ele irá quebrar para baixo. 
+  */
+  flex: 1 1 260px;
+  border: 4px solid var(--cor-branco-1);
+  padding: 20px;
+}
+
+.preco-item h2 {
+  font-size: 3em;
+  color: var(--cor-cinza-2);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.preco-item span {
+  display: block;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: 4px solid var(--cor-branco-1);
+  border-bottom: 4px solid var(--cor-branco-1);
+}
+
+.preco-item sup {
+  font-size: 1.5rem;
+}
+
+.preco-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  font-style: italic;
+  color: var(--cor-cinza-1);
+}
+
+.preco-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.preco-item li::after {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--cor-azul-2);
+}
+
+.preco-item a {
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid;
+  color: var(--cor-preto-1);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.25em;
+  padding: 15px 0;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .precos {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .precos .preco-item:nth-child(3) {
+    /* Muda a posição para o topo pois é o valor mais negativo. */
+    order: -2;
+  }
+
+  .precos .preco-item:nth-child(2) {
+    /* Muda a posição para o meio pois é o segundo valor mais negativo. */
+    order: -1;
+  }
+}

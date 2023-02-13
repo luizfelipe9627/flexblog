@@ -13,8 +13,8 @@
 @import url('./partials/introducao.css');
 @import url('./partials/sobre.css');
 @import url('./partials/produtos.css');
-@import url('./partials/qualidades.css');
 @import url('./partials/precos.css');
+@import url('./partials/qualidades.css');
 
 /* Footer */
 @import url('./partials/newsletter.css');

@@ -27,9 +27,11 @@
 }
 
 .sobre-img {
-  /* flex-grow -> Cada imagem pega metade do espaço definido no sobre-info. / flex-shrink -> Valor padrão. / flex-basis -> Quando alguma imagem atingir 160px ele irá quebrar a img para baixo. */
+  /* 
+    flex-grow -> O valor 1 faz expandir ao máximo cada imagem. 
+    flex-shrink -> O valor 1 é permite que os itens tenham os seus tamanhos reduzidos para caber no container.
+    flex-basis -> Quando algum elemento atingir 160px ele irá quebrar para baixo. 
+  */
   flex: 1 1 160px;
   margin: 0 10px 10px 10px;
 }
-
-
