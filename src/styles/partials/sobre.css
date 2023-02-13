@@ -29,7 +29,7 @@
 .sobre-img {
   /* 
     flex-grow -> O valor 1 faz expandir ao máximo cada imagem. 
-    flex-shrink -> O valor 1 é permite que os itens tenham os seus tamanhos reduzidos para caber no container.
+    flex-shrink -> O valor 1 permite que os itens tenham os seus tamanhos reduzidos para caber no container.
     flex-basis -> Quando algum elemento atingir 160px ele irá quebrar para baixo. 
   */
   flex: 1 1 160px;
