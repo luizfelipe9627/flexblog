@@ -1,10 +1,12 @@
 :root {
   --cor-preto-1: #222222;
-
   --cor-cinza-1: #7C7C7C;
-
+  --cor-cinza-2: #A4A4A4;
   --cor-branco-1: #FFFFFF;
-
+  --cor-branco-2: #F7F7F7;
+  --cor-roxo-1: #AE81FF;
+  --cor-rosa-1: #F9265E;
   --cor-azul-1: #122AB2;
   --cor-azul-2: #2C70FF;
+  --cor-azul-3: #66D9EB
 }
