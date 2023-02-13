@@ -16,7 +16,11 @@
 }
 
 .produto-item {
-  /* flex-grow -> O valor 1 faz expandir ao máximo cada imagem. / flex-shrink -> O valor 1 é o padrão. / flex-basis -> Quando algum elemento atingir 175px ele irá quebrar para baixo. */
+  /*
+    flex-grow -> O valor 1 faz expandir ao máximo cada imagem. 
+    flex-shrink -> O valor 1 é permite que os itens tenham os seus tamanhos reduzidos para caber no container.
+    flex-basis -> Quando algum elemento atingir 175px ele irá quebrar para baixo. 
+  */
   flex: 1 1 175px;
   margin: 10px;
 }
