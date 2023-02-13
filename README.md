@@ -9,7 +9,7 @@ FlexBox é um site fictício de blog.
 ## 📑 Observação
 FlexBox é o projeto final do módulo de CSS Flexbox feito na Origamid.
 
-### <a href="https://luizfelipe9627-bikcraft-2.netlify.app">Acesse o site</a>
+### <a href="https://luizfelipe9627-flexblog.netlify.app">Acesse o site</a>
 
 ## 🔍 Layout 
 Este layout foi criado por André Rafael no curso realizado através da Origamid.
