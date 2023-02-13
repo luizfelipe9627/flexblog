@@ -14,7 +14,7 @@ FlexBox é o projeto final do módulo de CSS Flexbox feito na Origamid.
 ## 🔍 Layout 
 Este layout foi criado por André Rafael no curso realizado através da Origamid.
 
-### <a href="origamid.com/curso/css-flexbox">Acessar o site</a>
+### <a href="origamid.com/curso/css-flexbox">Acessar o curso</a>
 
 ## 💻 Tecnologias utilizadas
 
